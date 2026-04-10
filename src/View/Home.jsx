@@ -19,7 +19,7 @@ const Main = () => {
                     <img
                         src={Fondo}
                         alt="Background"
-                        className="w-full h-full object-cover opacity-20 grayscale brightness-50"
+                        className="w-full h-full object-cover opacity-50 grayscale brightness-50"
                     />
                     {/* El degradado asegura una transición suave hacia el negro de la siguiente sección */}
                     <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/50 via-transparent to-[#050505]"></div>
@@ -47,7 +47,7 @@ const Main = () => {
 
                 <div className="text-center mb-16">
                     <h3 className="text-3xl font-bold text-[#7ba4d0] mb-4">Alguno de Nuestros Servicios</h3>
-                    <p className="text-gray-400">Desarrollo de software a medida para empresas y organizaciones</p>
+                    <p className="text-gray-400">Desarrollo de software a medida para Startups, empresas y organizaciones</p>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-8 w-full">
