@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Preloader from './Home/Preloader';
-import Navbar from './Home/Navbar';
-import Main from './Home/Main';
-import Footer from './Home/Footer';
+import Preloader from './Components/Preloader';
+import Navbar from './Components/Navbar';
+import Main from './View/Home';
+import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //import Proyectos from './Home/Proyectos';
 //import Servicios from './Home/Servicios';
