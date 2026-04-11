@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Preloader from './Components/Preloader';
 import Navbar from './Components/Navbar';
+import FloatingContact from './Components/FloatingContact';
 import Main from './View/Home';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -29,7 +30,7 @@ function App() {
           <Route path="/proyectos" element={<Proyectos />} /> */}
           {/* Si tienes un componente Contacto, puedes añadirlo aquí también */}
         </Routes>
-
+        <FloatingContact />
         <Footer /> {/* <-- Lo volví a poner aquí para que sea persistente */}
       </div>
     </BrowserRouter>

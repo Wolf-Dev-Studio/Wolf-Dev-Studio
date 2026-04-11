@@ -74,6 +74,73 @@ const Main = () => {
                 </div>
             </section>
 
+            {/* --- SECCIÓN 3: Sobre mi --- */}
+            <section className="w-[90%] mx-auto my-20 bg-[#0f172a] border border-[#a0c4e8] rounded-[2rem] p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+                <div className="flex-1 space-y-4">
+                    <h3 className="text-3xl font-bold text-[#7ba4d0]">Sobre mí</h3>
+                    <p className="text-gray-400 leading-relaxed text-lg">
+                        Soy un apasionado por la tecnología y el rendimiento. En Wolf Dev Studio,
+                        combino la precisión técnica con un diseño minimalista para crear soluciones
+                        digitales que no solo funcionan, sino que escalan. Mi enfoque es similar al
+                        entrenamiento de alto rendimiento: consistencia, técnica y resultados.
+                    </p>
+                </div>
+
+                <div className="w-full md:w-1/3 aspect-square bg-[#1e293b] rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+                    <img
+                        src="/tu-foto.jpg" // Asegúrate de poner la ruta correcta
+                        alt="Yorbis - Lead Developer"
+                        className="w-full h-full object-cover"
+                    />
+                </div>
+            </section>
+
+
+
+            {/* --- SECCIÓN 4: NUESTROS PROYECTOS --- */}
+            <section className="max-w-7xl mx-auto px-4 py-20">
+                <div className="text-center mb-16">
+                    <h3 className="text-4xl font-black tracking-tighter text-white mb-4">Nuestros Proyectos</h3>
+                    <p className="text-gray-500 max-w-2xl mx-auto">
+                        Explora algunos de nuestros trabajos más recientes, donde la funcionalidad se encuentra con el diseño de vanguardia.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {/* Proyecto 1 */}
+                    <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
+                        <div className="h-48 overflow-hidden">
+                            <img src="/proyecto1.jpg" alt="E-commerce Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        </div>
+                        <div className="p-6">
+                            <h4 className="text-xl font-bold text-white mb-2">Wolf Automobile</h4>
+                            <p className="text-gray-400 text-sm">Plataforma de gestión y venta de vehículos con enfoque en optimización de inventario.</p>
+                        </div>
+                    </div>
+
+                    {/* Proyecto 2 */}
+                    <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
+                        <div className="h-48 overflow-hidden">
+                            <img src="/proyecto2.jpg" alt="App Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        </div>
+                        <div className="p-6">
+                            <h4 className="text-xl font-bold text-white mb-2">Fitness Tracker Pro</h4>
+                            <p className="text-gray-400 text-sm">Aplicación web para el control de rutinas y volumen de carga para atletas de alto rendimiento.</p>
+                        </div>
+                    </div>
+
+                    {/* Proyecto 3 */}
+                    <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
+                        <div className="h-48 overflow-hidden">
+                            <img src="/proyecto3.jpg" alt="Landing Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        </div>
+                        <div className="p-6">
+                            <h4 className="text-xl font-bold text-white mb-2">Industrial Landing</h4>
+                            <p className="text-gray-400 text-sm">Diseño de alta conversión para empresas del sector metalúrgico y automotriz.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 };
