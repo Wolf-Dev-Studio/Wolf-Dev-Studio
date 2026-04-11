@@ -13,7 +13,7 @@ const Navbar = () => {
                         <span className="text-white font-black -rotate-45 text-xs">W</span>
                     </div>
                     <h1 className="text-xl font-black tracking-tighter text-white">
-                        WOLF <span className="text-[#7ba4d0]">DEV</span>
+                        WOLF <span className="text-[#7ba4d0]">DEV</span> STUDIO
                     </h1>
                 </div>
 
