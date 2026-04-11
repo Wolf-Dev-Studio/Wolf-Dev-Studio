@@ -19,15 +19,16 @@ const Footer = () => {
                     {/* Columna 2: Navegación Rápida */}
                     <div className="flex flex-col space-y-3">
                         <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-2">Explorar</h4>
-                        <a href="#proyectos" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Proyectos</a>
-                        <a href="#servicios" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Servicios</a>
-                        <a href="#contacto" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Contacto</a>
+                        <a href="proyectos" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Proyectos</a>
+                        <a href="servicios" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Servicios</a>
+                        <a href="sobre-mi" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Sobre Mi</a>
+                        <a href="contacto" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors">Contacto</a>
                     </div>
 
                     {/* Columna 3: Social & Contacto */}
                     <div className="flex flex-col space-y-3">
                         <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-2">Conectar</h4>
-                        <a href="https://github.com/tu-usuario" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">
+                        <a href="https://github.com/LoboYorbis" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">
                             GitHub
                         </a>
                         <a href="https://linkedin.com/in/tu-perfil" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">

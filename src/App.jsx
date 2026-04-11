@@ -5,8 +5,10 @@ import FloatingContact from './Components/FloatingContact';
 import Main from './View/Home';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import Proyectos from './Home/Proyectos';
-//import Servicios from './Home/Servicios';
+import Proyectos from './View/Proyecto';
+import Servicios from './View/Servicios';
+import Contacto from './View/Contacto';
+import SobreMi from './View/SobreMi';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -14,7 +16,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []); // <-- LÍNEA 17: Solo una vez.
 
@@ -26,9 +28,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Main />} />
-          {/* <Route path="/servicios" element={<Servicios />} />
-          <Route path="/proyectos" element={<Proyectos />} /> */}
-          {/* Si tienes un componente Contacto, puedes añadirlo aquí también */}
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/sobre-mi" element={<SobreMi />} />
         </Routes>
         <FloatingContact />
         <Footer /> {/* <-- Lo volví a poner aquí para que sea persistente */}

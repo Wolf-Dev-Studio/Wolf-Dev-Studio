@@ -3,7 +3,10 @@ import Fondo from '../assets/IMG-Bienvenida.webp';
 import SerLandingPage from '../assets/LandingPage.webp';
 import SerTiendaOnline from '../assets/Store-Online.webp';
 import SerAppWeb from '../assets/App-Web.webp';
-
+import FAQ from '../Components/FAQ';
+import TechStack from '../Components/TECH';
+import Process from '../Components/Process';
+import FinalCTA from '../Components/CTA';
 
 const Main = () => {
     return (
@@ -40,6 +43,8 @@ const Main = () => {
                     </div>
                 </div>
             </section>
+
+            <TechStack />
 
             {/* --- SECCIÓN 2: NUESTROS SERVICIOS --- */}
             {/* Como ya no tiene imagen detrás, su fondo será el negro sólido del <main> */}
@@ -141,6 +146,9 @@ const Main = () => {
                     </div>
                 </div>
             </section>
+            <Process />
+            <FAQ />
+            <FinalCTA />
         </main>
     );
 };
