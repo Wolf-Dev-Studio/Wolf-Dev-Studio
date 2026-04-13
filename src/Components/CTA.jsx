@@ -14,10 +14,7 @@ const FinalCTA = () => {
                     Hablemos de código, diseño y escalabilidad.
                 </p>
 
-                <a
-                    href="mailto:tu-correo@gmail.com"
-                    className="inline-flex items-center gap-3 px-10 py-5 border-2 border-[#7ba4d0] bg-[#050505] text-[#7ba4d0] hover:bg-[#7ba4d0] hover:text-[#050505] transition-colors font-black uppercase tracking-[0.2em] text-sm group"
-                >
+                <a href="contacto" className="inline-flex items-center gap-3 px-10 py-5 border-2 border-[#7ba4d0] bg-[#050505] text-[#7ba4d0] hover:bg-[#7ba4d0] hover:text-[#050505] transition-colors font-black uppercase tracking-[0.2em] text-sm group" >
                     Contactar Ahora
                     <i className="bi bi-arrow-right text-xl group-hover:translate-x-2 transition-transform"></i>
                 </a>

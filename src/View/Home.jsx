@@ -34,12 +34,12 @@ const Main = () => {
                         WOLF <span className="text-[#7ba4d0]">DEV</span> STUDIO
                     </h1>
                     <div className="mt-12 flex flex-col md:flex-row gap-6 justify-center">
-                        <button className="bg-[#7ba4d0] text-[#0d2440] px-10 py-4 font-bold rounded-sm hover:bg-white transition-all duration-300">
+                        <a href="proyectos" className="bg-[#7ba4d0] text-[#0d2440] px-10 py-4 font-bold rounded-sm hover:bg-white transition-all duration-300">
                             VER PROYECTOS
-                        </button>
-                        <button className="border border-[#7ba4d0] text-[#7ba4d0] px-10 py-4 font-bold rounded-sm hover:bg-[#7ba4d0] hover:text-[#0d2440] transition-all duration-300">
+                        </a>
+                        <a href="contacto" className="border border-[#7ba4d0] text-[#7ba4d0] px-10 py-4 font-bold rounded-sm hover:bg-[#7ba4d0] hover:text-[#0d2440] transition-all duration-300">
                             CONTACTAR
-                        </button>
+                        </a>
                     </div>
                 </div>
             </section>

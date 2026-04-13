@@ -31,7 +31,7 @@ const Footer = () => {
                         <a href="https://github.com/LoboYorbis" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">
                             GitHub
                         </a>
-                        <a href="https://linkedin.com/in/tu-perfil" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">
+                        <a href="https://linkedin.com/in/yorbis-lobo" target="_blank" className="text-gray-400 hover:text-[#7ba4d0] text-sm transition-colors flex items-center gap-2">
                             LinkedIn
                         </a>
                         <p className="text-gray-500 text-sm mt-2">Caracas, Venezuela</p>
