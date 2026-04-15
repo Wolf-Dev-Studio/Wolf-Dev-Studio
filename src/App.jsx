@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Swal from 'sweetalert2'
 import Preloader from './Components/Preloader';
 import Navbar from './Components/Navbar';
 import FloatingContact from './Components/FloatingContact';

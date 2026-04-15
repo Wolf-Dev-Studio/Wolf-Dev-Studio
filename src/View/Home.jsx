@@ -1,4 +1,5 @@
 import React from 'react';
+import Swal from 'sweetalert2'
 import Fondo from '../assets/IMG-Bienvenida.webp';
 import SerLandingPage from '../assets/LandingPage.webp';
 import SerTiendaOnline from '../assets/Store-Online.webp';
