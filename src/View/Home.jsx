@@ -3,6 +3,10 @@ import Fondo from '../assets/IMG-Bienvenida.webp';
 import SerLandingPage from '../assets/LandingPage.webp';
 import SerTiendaOnline from '../assets/Store-Online.webp';
 import SerAppWeb from '../assets/App-Web.webp';
+import Proyecto1 from '../assets/Dealer.jpg';
+import Proyecto2 from '../assets/Fitnes.jpg';
+import Proyecto3 from '../assets/Finance.jpg';
+import Personal2 from '../assets/Personal2.png'
 import FAQ from '../Components/FAQ';
 import TechStack from '../Components/TECH';
 import Process from '../Components/Process';
@@ -91,9 +95,9 @@ const Main = () => {
                     </p>
                 </div>
 
-                <div className="w-full md:w-1/3 aspect-square bg-[#1e293b] rounded-2xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+                <div className="w-full md:w-1/3 aspect-square bg-[#1e293b] rounded-2xl overflow-hidden hover:grayscale-0 transition-all duration-500">
                     <img
-                        src="/tu-foto.jpg" // Asegúrate de poner la ruta correcta
+                        src={Personal2} // Asegúrate de poner la ruta correcta
                         alt="Yorbis - Lead Developer"
                         className="w-full h-full object-cover"
                     />
@@ -115,7 +119,7 @@ const Main = () => {
                     {/* Proyecto 1 */}
                     <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
                         <div className="h-48 overflow-hidden">
-                            <img src="/proyecto1.jpg" alt="E-commerce Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                            <img src={Proyecto1} alt="E-commerce Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         </div>
                         <div className="p-6">
                             <h4 className="text-xl font-bold text-white mb-2">Wolf Automobile</h4>
@@ -126,22 +130,22 @@ const Main = () => {
                     {/* Proyecto 2 */}
                     <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
                         <div className="h-48 overflow-hidden">
-                            <img src="/proyecto2.jpg" alt="App Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                            <img src={Proyecto2} alt="App Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         </div>
                         <div className="p-6">
-                            <h4 className="text-xl font-bold text-white mb-2">Fitness Tracker Pro</h4>
-                            <p className="text-gray-400 text-sm">Aplicación web para el control de rutinas y volumen de carga para atletas de alto rendimiento.</p>
+                            <h4 className="text-xl font-bold text-white mb-2">Wolf Focus Tracker</h4>
+                            <p className="text-gray-400 text-sm">App web para el seguimiento de hábitos, metas, el control de rutinas y volumen de carga para atletas de alto rendimiento.</p>
                         </div>
                     </div>
 
                     {/* Proyecto 3 */}
                     <div className="group bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl overflow-hidden hover:border-[#7ba4d0]/50 transition-all duration-300">
                         <div className="h-48 overflow-hidden">
-                            <img src="/proyecto3.jpg" alt="Landing Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                            <img src={Proyecto3} alt="Landing Project" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         </div>
                         <div className="p-6">
-                            <h4 className="text-xl font-bold text-white mb-2">Industrial Landing</h4>
-                            <p className="text-gray-400 text-sm">Diseño de alta conversión para empresas del sector metalúrgico y automotriz.</p>
+                            <h4 className="text-xl font-bold text-white mb-2">Wolf Admin Wallet</h4>
+                            <p className="text-gray-400 text-sm">App web y movil para la gestión de finanzas personales.</p>
                         </div>
                     </div>
                 </div>

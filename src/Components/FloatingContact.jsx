@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const FloatingContact = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -8,7 +9,6 @@ const FloatingContact = () => {
     { name: 'GitHub', icon: <i className="bi bi-github"></i>, link: 'https://github.com/LoboYorbis', color: 'bg-[#1a1a1a]' },
     { name: 'LinkedIn', icon: <i className="bi bi-linkedin"></i>, link: 'https://linkedin.com/in/yorbis-lobo', color: 'bg-[#0077b5]' },
     { name: 'Instagram', icon: <i className="bi bi-instagram"></i>, link: 'https://instagram.com/yorbis.dev', color: 'bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7]' },
-    { name: 'Email', icon: <i className="bi bi-envelope-fill"></i>, link: 'mailto:[EMAIL_ADDRESS]', color: 'bg-[#7ba4d0] text-[#050505]' },
   ];
 
   return (

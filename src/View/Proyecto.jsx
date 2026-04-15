@@ -1,4 +1,11 @@
 import React from 'react';
+import Dealer from '../assets/Dealer.jpg'
+import Gear from '../assets/Gear.jpg'
+import SpareSpart from '../assets/SpareSpart.jpg'
+import FocusTracker from '../assets/Fitnes.jpg'
+import AdminWallet from '../assets/Finance.jpg'
+import LogisticDelivery from '../assets/Logistic.jpg'
+import LuxuryHub from '../assets/Luxury.jpg'
 
 const Proyectos = () => {
     const proyectos = [
@@ -6,49 +13,50 @@ const Proyectos = () => {
             nombre: "Wolf Motor Hub",
             categoria: "Web App / React",
             desc: "Plataforma de gestión y catálogo de vehículos de alto rendimiento.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/7ba4d0?text=WOLF+MOTOR+HUB", // Cambiarás esto por la ruta de tu imagen
-            link: "https://wolf-motor-hub.web.app/" // Link a tu repo o demo
+            img: Dealer, // Cambiarás esto por la ruta de tu imagen
+            link: "https://github.com/Wolf-Dev-Studio/Wolf_Motors_Hub",
+            link2: "https://wolf-motor-hub.web.app/" // Link a tu repo o demo
         },
         {
             nombre: "Wolf Gear",
             categoria: "E-Commerce",
             desc: "Próximo desarrollo: Catálogo de ropa deportiva.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: Gear,
             link: "#"
         },
         {
             nombre: "Wolf Spare Parts",
             categoria: "E-Commerce",
             desc: "Próximo desarrollo: Catálogo técnico de piezas y herramientas.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: SpareSpart,
             link: "#"
         },
         {
             nombre: "Wolf Focus Tracker",
             categoria: "App Web / App Movil",
             desc: "Próximo desarrollo: App web para el seguimiento de hábitos y metas.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: FocusTracker,
             link: "#"
         },
         {
             nombre: "Wolf Admin Wallet",
             categoria: "App Web / App Movil",
             desc: "Próximo desarrollo: App web y movil para la gestión de finanzas personales.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: AdminWallet,
             link: "#"
         },
         {
             nombre: "Wolf Logistic And Delivery",
             categoria: "App Web / App Movil",
             desc: "Próximo desarrollo: App web y movil para la gestión de logística y entregas.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: LogisticDelivery,
             link: "#"
         },
         {
             nombre: "Wolf Luxury Hub",
             categoria: "E-Commerce",
             desc: "Próximo desarrollo: Catálogo de productos de lujo y accesorios.",
-            img: "https://via.placeholder.com/600x400/0a0a0a/333333?text=WOLF+GEAR",
+            img: LuxuryHub,
             link: "#"
         },
 
@@ -66,20 +74,22 @@ const Proyectos = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     {proyectos.map((proyecto, index) => (
-                        <div key={index} className="group cursor-pointer">
+                        <div key={index} className="group ">
                             {/* Contenedor de Imagen con efecto Hover */}
-                            <div className="border-2 border-[#1a1a1a] overflow-hidden mb-6 relative">
-                                <div className="absolute inset-0 bg-[#7ba4d0]/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center">
-                                    <span className="bg-[#050505] border-2 border-[#7ba4d0] text-[#7ba4d0] px-6 py-2 font-black uppercase tracking-widest text-xs">
-                                        Ver Proyecto
-                                    </span>
+                            <a href={proyecto.link2} target="_blank" rel="noopener noreferrer">
+                                <div className="border-2 border-[#1a1a1a] overflow-hidden mb-6 relative">
+                                    <div className="absolute inset-0 bg-[#7ba4d0]/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 flex items-center justify-center">
+                                        <span className="bg-[#050505] border-2 border-[#7ba4d0] text-[#7ba4d0] px-6 py-2 font-black uppercase tracking-widest text-xs">
+                                            Ver Proyecto
+                                        </span>
+                                    </div>
+                                    <img
+                                        src={proyecto.img}
+                                        alt={proyecto.nombre}
+                                        className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105"
+                                    />
                                 </div>
-                                <img
-                                    src={proyecto.img}
-                                    alt={proyecto.nombre}
-                                    className="w-full h-auto grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105"
-                                />
-                            </div>
+                            </a>
 
                             {/* Información del Proyecto */}
                             <div className="flex justify-between items-start">

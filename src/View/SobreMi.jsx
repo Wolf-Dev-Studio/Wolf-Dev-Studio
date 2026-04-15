@@ -1,4 +1,5 @@
 import React from 'react';
+import Personal1 from '../assets/Personal1.png'
 
 const SobreMi = () => {
     // Array de hitos técnicos para la línea de tiempo (recreando la Experiencia Laboral)
@@ -46,9 +47,7 @@ const SobreMi = () => {
 
                         {/* Foto de Perfil Circular Técnica (Estilo WOLF) */}
                         <div className="w-40 h-40 rounded-full border-4 border-[#1a1a1a] p-2 mx-auto flex items-center justify-center bg-[#050505] relative mb-10 overflow-hidden group">
-                            <div className="w-32 h-32 border-2 border-[#7ba4d0] rotate-45 flex items-center justify-center bg-[#050505] z-10 transition-transform duration-300 group-hover:rotate-[225deg]">
-                                <span className="text-[#7ba4d0] font-black -rotate-45 text-5xl tracking-tighter transition-transform duration-300 group-hover:rotate-[135deg]">W</span>
-                            </div>
+                            <img src={Personal1} alt="Yorbis - Lead Developer" className="w-full h-full" />
                         </div>
 
                         {/* Ficha Técnica (Recreando Contacto en la imagen) */}
