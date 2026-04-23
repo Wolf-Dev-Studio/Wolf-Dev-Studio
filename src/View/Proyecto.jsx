@@ -125,7 +125,7 @@ const Proyectos = () => {
 
                             {/* Información del Proyecto */}
                             <div className="flex justify-between items-start">
-                                <div>
+                                <div className="flex flex-col gap-2">
                                     <span className="text-[#7ba4d0] text-[10px] uppercase font-bold tracking-[0.2em]">
                                         {proyecto.categoria}
                                     </span>
