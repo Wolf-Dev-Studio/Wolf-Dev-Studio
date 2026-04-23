@@ -129,6 +129,9 @@ const Proyectos = () => {
                                     <span className="text-[#7ba4d0] text-[10px] uppercase font-bold tracking-[0.2em]">
                                         {proyecto.categoria}
                                     </span>
+                                    <span className="text-[#7ba4d0] text-[10px] uppercase font-bold tracking-[0.2em]">
+                                        {proyecto.desc}
+                                    </span>
                                     <h3 className="text-white font-black text-xl uppercase tracking-widest mt-2">
                                         {proyecto.nombre}
                                     </h3>

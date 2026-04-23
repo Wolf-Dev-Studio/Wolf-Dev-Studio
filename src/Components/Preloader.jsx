@@ -4,7 +4,7 @@ import logo from '../assets/Logo-Principal.png';
 const Preloader = ({ isLoading }) => {
     return (
         <div
-            className={`fixed inset-0 min-h-screen bg-[#0d2440] flex flex-col items-center justify-center z-50 
+            className={`fixed inset-0 min-h-screen bg-[#0d2440] flex flex-col items-center justify-center z-100 
                  transition-transform duration-1000 ease-in-out 
                  ${isLoading ? 'translate-y-0' : '-translate-y-full'}`}
         >
