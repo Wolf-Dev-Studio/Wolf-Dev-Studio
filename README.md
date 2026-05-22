@@ -48,8 +48,8 @@ En Wolf Dev Studio operamos bajo tres principios técnicos innegociables:
 Estamos constantemente desarrollando herramientas internas y proyectos para clientes. Si eres desarrollador y quieres colaborar en nuestros repositorios, o si eres una empresa buscando soluciones de software que realmente funcionen:
 
 * 🌐 **Sitio Web:** *[Próximamente / En desarrollo]*
-* 📩 **Contacto Directo:** [Tu Correo Electrónico o Enlace a WhatsApp]
-* 💼 **LinkedIn:** *[Enlace al LinkedIn de la organización o portafolios]*
+* 📩 **Contacto Directo:** https://instagram.com/yorbis.dev
+* 💼 **LinkedIn:** https://www.linkedin.com/in/yorbis-lobo/
 
 ---
 <p align="center">
